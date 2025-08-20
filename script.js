@@ -17,11 +17,11 @@
         document.getElementById('resume-btn').addEventListener('click', function(e) {
             e.preventDefault();
             // Replace with your actual resume link
-            window.open('https://drive.google.com/file/d/1NzFuiYKc4WHqOpWv6H3P3p89ebL8kTKs/view?usp=drive_link', '_blank');
+            window.open('https://drive.google.com/file/d/1eb4DfZAYtz01csLn4rR9vWmWo73Yxifp/view?usp=sharing', '_blank');
             
             // Create a temporary link for download
             const link = document.createElement('a');
-            link.href = 'arpit-r.pdf';
+            link.href = 'arpitResume (2).pdf';
             link.download = 'Arpit-Resume.pdf';
             document.body.appendChild(link);
             link.click();
