@@ -21,8 +21,8 @@
             
             // Create a temporary link for download
             const link = document.createElement('a');
-            link.href = 'arpitResume (2).pdf';
-            link.download = 'Arpit-Resume.pdf';
+            link.href = 'Arpit-Resume..pdf';
+            link.download = 'Arpit-Resume..pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
